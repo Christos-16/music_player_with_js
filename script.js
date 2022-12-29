@@ -36,6 +36,16 @@ const songs = [
     displayName: 'Oso tipota se thelo',
     artist: 'Nikos Oikonomopoulos',
   },
+  {
+    name: 'Cannons',
+    displayName: 'Cannons Golden (Harry Styles Cover)',
+    artist: 'Cannons1',
+  },
+  {
+    name: 'Cannons1',
+    displayName: 'Cannons Fire For You',
+    artist: 'Cannons',
+  },
 ];
 
 // Check if song is playing
