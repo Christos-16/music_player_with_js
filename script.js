@@ -14,7 +14,7 @@ const nextBtn = getElem('#next');
 // Counter for current song
 let currentSong = 0;
 
-// Music
+// Our Music Tracks, Remember to play any song you want firstly you have to download it and then save it in music folder. After that you have to put a new image for the cover.
 const songs = [
   {
     name: 'notis',
@@ -89,7 +89,7 @@ function updateProgress(e) {
     const progressPercent = (currentTime / duration) * 100;
     progress.style.width = `${progressPercent}%`;
 
-    // Calculate Display for the duration
+    // Calculate Display for the Duration
     const durationMinutes = Math.floor(duration / 60);
     let durationSeconds = Math.floor(duration % 60);
     if (durationSeconds < 10) {
@@ -127,7 +127,7 @@ function nextSong() {
   playSong();
 }
 
-// function for previous song
+// Function for previous song
 function previousSong() {
   currentSong <= 0 ? (currentSong = songs.length - 1) : currentSong--;
   loadSong(songs[currentSong]);
