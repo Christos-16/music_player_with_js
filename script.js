@@ -17,28 +17,8 @@ let currentSong = 0;
 // Our Music Tracks, Remember to play any song you want firstly you have to download it and then save it in music folder. After that you have to put a new image for the cover.
 const songs = [
   {
-    name: 'notis',
-    displayName: 'Siganes Psihales',
-    artist: 'Notis Sfakianakis',
-  },
-  {
-    name: 'rania',
-    displayName: 'NYXTA στον ΡΥΘΜΟ "MIX SESSION 3"',
-    artist: 'RythmosTube',
-  },
-  {
-    name: 'apergis',
-    displayName: 'Live Mix Apergis',
-    artist: 'Nikos Apergis',
-  },
-  {
-    name: 'oikonomopoulos',
-    displayName: 'Oso tipota se thelo',
-    artist: 'Nikos Oikonomopoulos',
-  },
-  {
     name: 'Cannons',
-    displayName: 'Cannons Golden (Harry Styles Cover)',
+    displayName: 'Cannons Golden',
     artist: 'Cannons1',
   },
   {
